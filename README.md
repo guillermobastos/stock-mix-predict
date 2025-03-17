@@ -10,85 +10,32 @@ Clasificación de cambios futuros en 5 categorías basadas en percentiles.
 
 Predicción con modelos de Machine Learning:
 
-Random Forest
-
-XGBoost
-
-Gradient Boosting
-
-LightGBM
+- Random Forest
+- XGBoost
+- Gradient Boosting
+- LightGBM
 
 Visualización de predicciones con bandas de confianza y tendencias proyectadas.
 
-📂 Estructura del Proyecto
-
-📁 Proyecto
-│── 📜 clasificador-2w.ipynb       # Jupyter Notebook con todo el flujo de trabajo
-│── 📜 README.md            # Documentación del proyecto
-
 🛠 Instalación y Requisitos
-
 Clonar el repositorio:
-
 git clone https://github.com/guillermobastos/stock-2w-predict.git
 cd stock-2w-predict
 
 Abrir el Jupyter Notebook:
-
 jupyter notebook
-
 Luego, ejecutar clasificador-2w.ipynb.
 
 📊 Método de Clasificación
-
 Los cambios porcentuales de precio se clasifican en cinco categorías según percentiles históricos:
 
-Clase
+Clases:
+0 - Venta muy fuerte
+1 - Venta moderada
+2 - Neutral
+3 - Compra moderada
+4 - Compra muy fuerte
 
-Interpretación
-
-0
-
-Venta muy fuerte
-
-1
-
-Venta moderada
-
-2
-
-Neutral
-
-3
-
-Compra moderada
-
-4
-
-Compra muy fuerte
-
-Los percentiles se calculan dinámicamente en función del dataset.
-
-📉 Visualización de Predicciones
-
-Se generan gráficos que:
-
-Muestran el precio histórico.
-
-Proyectan posibles escenarios futuros con bandas de confianza.
-
-Permiten comparar predicciones entre diferentes modelos.
-
-Ejemplo de predicción:
-
-
-🔍 Evaluación del Modelo
-
-Los modelos se evalúan en función de:
-
-Precisión en la clasificación (Future_Class_2w).
-
-Distribución de predicciones comparadas con los valores reales.
 
 
 # Futuras implementaciones 
