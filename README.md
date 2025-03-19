@@ -24,7 +24,7 @@ cd stock-mix-predict
 
 Abrir el Jupyter Notebook:
 jupyter notebook
-Luego, ejecutar clasificador-2w.ipynb.
+Luego, ejecutar clasificador-mixto-pruebas.ipynb.
 
 📊 Método de Clasificación
 Los cambios porcentuales de precio se clasifican en cinco categorías según percentiles históricos:
