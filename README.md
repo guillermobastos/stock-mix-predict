@@ -4,7 +4,7 @@ Este proyecto utiliza Machine Learning para predecir la dirección de los precio
 
 🚀 Características Principales
 
-Cálculo de cambios porcentuales a 1 semana, 2 semanas y 1 mes.
+Cálculo de cambios porcentuales a 1 semana, 2 semanas y 1 mes, 2 meses.
 
 Clasificación de cambios futuros en 5 categorías basadas en percentiles.
 
@@ -19,8 +19,8 @@ Visualización de predicciones con bandas de confianza y tendencias proyectadas.
 
 🛠 Instalación y Requisitos
 Clonar el repositorio:
-git clone https://github.com/guillermobastos/stock-2w-predict.git
-cd stock-2w-predict
+git clone https://github.com/guillermobastos/stock-mix-predict.git
+cd stock-mix-predict
 
 Abrir el Jupyter Notebook:
 jupyter notebook
