@@ -6,7 +6,7 @@ Este proyecto utiliza Machine Learning para predecir la dirección de los precio
 
 Cálculo de cambios porcentuales a 1 semana, 2 semanas y 1 mes, 2 meses.
 
-Clasificación de cambios futuros en 5 categorías basadas en percentiles.
+Clasificación de cambios futuros en 3 categorías basadas en percentiles.
 
 Predicción con modelos de Machine Learning:
 
@@ -24,19 +24,15 @@ cd stock-mix-predict
 
 Abrir el Jupyter Notebook:
 jupyter notebook
-Luego, ejecutar clasificador-mixto-pruebas.ipynb.
+Luego, ejecutar predict-2w.ipynb.
 
 📊 Método de Clasificación
 Los cambios porcentuales de precio se clasifican en cinco categorías según percentiles históricos:
 
 Clases:
-0 - Venta muy fuerte
-1 - Venta moderada
-2 - Neutral
-3 - Compra moderada
-4 - Compra muy fuerte
-
-
+0 - Venta
+1 - Neutral
+2 - Compra 
 
 # Futuras implementaciones 
 1. Añadir los resultados trimestrales
