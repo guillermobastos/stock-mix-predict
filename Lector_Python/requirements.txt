@@ -1,0 +1,6 @@
+pyserial
+pymysql
+paramiko
+python-dotenv
+sshtunnel
+pytz
